@@ -30,7 +30,7 @@ void loop() {
     previousMillis = millis();
 
     HTTPClient http;
-    http.begin("https://32a81089-a19e-4c05-9326-1b3e981cef3b-00-3tj6ftixmct0m.pike.replit.dev/"); 
+    http.begin("https://s-m.com.sa/r2/test/retrieve.php"); 
     int httpResponseCode = http.GET();
     
     if (httpResponseCode > 0) {
